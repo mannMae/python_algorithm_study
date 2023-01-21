@@ -1,4 +1,4 @@
-n, m, k = map(int, input().split())
+n,m,k = map(int, input().split())
 
 data = list(map(int, input().split()))
 
@@ -11,6 +11,6 @@ count += m % (k+1)
 
 result = 0
 result += count * first
-result += (m - count)*second
+result += (m - count) * second
 
 print(result)
